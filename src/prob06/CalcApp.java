@@ -43,6 +43,9 @@ public class CalcApp {
 				div.setValue(firstNum, secondNum);
 				System.out.print(">> " + div.calculate());
 				break;
+			default:
+				System.out.print(">> 알 수없는 연산 기호입니다.");
+				break;
 			}
 			System.out.println();
 
